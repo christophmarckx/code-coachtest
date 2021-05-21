@@ -1,4 +1,0 @@
-[[redirects]]
-from = "/*"
-to = "/front-end/:splat"
-status = 301
