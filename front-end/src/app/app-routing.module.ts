@@ -12,7 +12,7 @@ import {FindCoachComponent} from './components/user/profile/find-coach/find-coac
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
-  { path: 'registration', component: RegistrationComponent },
+  { path: 'registration', component: RegistrationComponent, pathMatch: 'prefix' },
   { path: 'user/:id', component: ProfileComponent ,
     children: [
       {path: 'profile-information', component: ProfileInformationComponent },
