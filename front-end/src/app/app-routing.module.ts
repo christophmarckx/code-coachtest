@@ -11,7 +11,7 @@ import {FindCoachComponent} from './components/user/profile/find-coach/find-coac
 
 
 const routes: Routes = [
-  {path: '', redirectTo: 'https://60a7abfd5d366f0007fb5444--clever-curran-45b2c4.netlify.app/'},
+  {path: '', redirectTo: 'https://60a7abfd5d366f0007fb5444--clever-curran-45b2c4.netlify.app/front-end'},
   {path: 'home', component: HomeComponent},
   { path: 'registration', component: RegistrationComponent },
   { path: 'user/:id', component: ProfileComponent ,
