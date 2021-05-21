@@ -11,8 +11,8 @@ import {FindCoachComponent} from './components/user/profile/find-coach/find-coac
 
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
-  { path: 'registration', component: RegistrationComponent, pathMatch: 'prefix' },
+  {path: 'home', component: HomeComponent, pathMatch: 'prefix'},
+  { path: 'registration', component: RegistrationComponent },
   { path: 'user/:id', component: ProfileComponent ,
     children: [
       {path: 'profile-information', component: ProfileInformationComponent },
